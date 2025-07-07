@@ -1,0 +1,73 @@
+body {
+    background: #8ab871;
+    text-align: center;
+
+    
+}
+
+
+img#logo {
+    width: 128px;
+    height: 128px;
+    vertical-align: middle;
+    display: inline-block;
+    box-shadow: -1px 1px 1px 0px rgba(0,0,0,0.59);
+    -webkit-box-shadow: -10px 10px 14px 0px rgba(0,0,0,0.59);
+    -moz-box-shadow: -10px 10px 14px 0px rgba(0,0,0,0.59);
+    border-radius: 100%;
+    background-color: #6ea351;
+}
+
+img {
+    width: 64px;
+    height: 64px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font: 25pt Georgia;
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: 10px;
+    margin: 0;
+    margin-top: 5px;
+}
+
+p {
+    font: 15pt Arial;
+    color: white;
+    margin: 0;
+
+}
+
+h2 {
+    font: 35pt Arial;
+}
+
+select, input {
+    padding: 5px;
+    border: rgb(255, 255, 255) solid 3px;
+    border-radius: 16px;
+    text-align: center;
+    background-color: #6ea351;
+    color: white;
+}
+
+button {
+    padding: 5px;
+    width: 192px;
+    border: white solid 3px;
+    background-color: rgb(75, 120, 202);
+    border-radius: 16px;
+}
+
+p#jonas {
+    color: rgb(0, 0, 0);
+}
+
+div#moldura {
+    border: #365227 solid 8px;
+    padding: 50px;
+    border-style: dotted;
+}

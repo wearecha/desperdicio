@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desperdiciômetro</title>
+    <link rel="shortcut icon" type="imagex/png" href="../imgs/logo.png">
+    <link rel="stylesheet" href="desp.css">
+</head>
+<body>
+    <div id="moldura">
+        <p>Nossa Ferramenta</p>
+        <h1>Desperdiciômetro</h1>
+        <br>
+        <br>
+        <img src="..//imgs/logo.png" alt="" id="logo">
+
+        <br>
+        <br>
+        <br>
+
+        <p>Selecione um alimento</p>
+        
+        <br>
+
+        <select name="alimento" id="comida_list">
+            <option value="arroz">Arroz</option>
+            <option value="feijao">Feijão</option>
+            <option value="acem">Carne Bovina (Acém)</option>
+            <option value="frango">Frango</option>
+            <option value="tomate">Tomate</option>
+            <option value="batata">Batata</option>
+            <option value="cenoura">Cenoura</option>
+            <option value="banana">Banana</option>
+            <option value="maca">Maçã</option>
+            <option value="alface">Alface</option>
+        </select>
+
+        <br>
+        <br>
+        
+        <p>Selecione a quantidade <br> deste alimento (gr)</p>
+
+        <br>
+
+        <input type="number" name="quant" id="_quant">
+        <br>
+        <br>
+        <br>
+        <button onclick="_calcula()">Calcular</button>
+        <br>
+        <h2 id="result"></h2>
+
+        <p id="mensal"></p>
+        <p id="anual"></p>
+        <br>
+
+        <p id="jonas">O Desperdiciômetro busca mostrar as pessoas <br> o valor do prejuízo do alimento que está sendo desperdiçado. <br>
+        Para usar o Desperdiciômetro coloque o alimento <br> que está sendo desperdiçado e a quantidade, <br> depois ele vai fazer o cálculo do prejuízo
+        </p>
+    </div>
+
+    <script src="desp.js"></script>
+</body>
+</html>

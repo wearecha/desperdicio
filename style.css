@@ -1,0 +1,84 @@
+body {
+    background: #8ab871;
+    text-align: center;
+    
+}
+
+
+img#logo {
+    width: 128px;
+    height: 128px;
+    vertical-align: middle;
+    display: inline-block;
+    box-shadow: -1px 1px 1px 0px rgba(0,0,0,0.59);
+    -webkit-box-shadow: -10px 10px 14px 0px rgba(0,0,0,0.59);
+    -moz-box-shadow: -10px 10px 14px 0px rgba(0,0,0,0.59);
+    border-radius: 100%;
+    background-color: #6ea351;
+}
+
+img {
+    width: 64px;
+    height: 64px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font: 25pt Georgia;
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: 10px;
+    margin: 0;
+    margin-top: 5px;
+}
+
+p {
+    font: 15pt Arial;
+    color: white;
+    margin: 0;
+
+}
+
+div.but {
+    background-color: #8ab871;
+    width: 140px;
+    margin: 5px auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    display: inline-block;
+    font: normal 9pt Arial black;
+    border: #496d36 4px solid;
+    border-radius: 16px;
+    scale: 1;
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+
+}
+
+div.but:hover  {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+div.but > *{
+    pointer-events: none;
+}
+
+a {
+    color: black;
+}
+
+h2 {
+    font: bold 15pt Georgia;
+}
+/*
+button {
+    visibility: hidden;
+}*/
+div#moldura {
+    border: #365227 solid 8px;
+    padding: 50px;
+    border-style: dotted;
+}
+
